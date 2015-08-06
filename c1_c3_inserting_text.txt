@@ -1,0 +1,110 @@
+A young intelligent turtle
+Found programming UNIX a hurdle
+
+and that's not saying much for the turtle!!!
+(That liked using Vim)
+
+# Remove VI compatible
+:set nocompatible
+
+# List all startup files
+:scriptnames
+
+# Jump to mark
+CTRL-]CTRL-O
+
+# Normal Mode
+ESC
+
+# INSERT MODE
+i
+
+# moving around
+h j k l
+
+# Delete characters
+x
+
+# Delete a line
+dd
+
+# Delete a line break
+J
+
+# undo and redo
+u CTRL-r
+
+# other edit commands
+a o A O
+
+# using a count
+number+operations
+
+# Getting out
+ZZ
+:q!
+:e! reloads orignal file
+
+# Help
+:help command
+:help i_CTRL-H
+
+# Word movement
+w b
+e ge
+
+# Line movement
+$ 0 ^
+
+# Character movement
+fx Fx
+tx Tx
+
+# Parenthesis matching
+%
+
+# Move to specific line
+G gg
+H M L
+
+# Tell where you are
+CTRL-G
+:set number
+:set nonumber
+:set ruler
+
+# Scroll
+CTRL-U
+CTRL-D
+CTRL-E CTRL-Y
+CTRL-F CTRL-B
+zt zb
+
+# Simple Searches
+/string
+n N
+?
+
+# Ignore CASE
+:set ignorecase
+
+# Search for a text
+* #
+
+# Search for whole word
+/the\>
+
+# High light search
+:set hlsearch
+:set nohlsearch
+:nohlsearch
+
+# Edit file
+:edit ~/.vimrc
+
+# Using Marks
+mx (including 26 characters)
+``
+`x
+:jumps
+:marks
