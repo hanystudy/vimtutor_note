@@ -1,0 +1,71 @@
+To err is human. To really foul up you need a computer.
+
+including operator-motion, visual mode and text objects
+
+# delete
+d4w d4e d0 d$ dd
+
+# change
+c is like d, but leaves in insert mode
+cw ce
+cc c0 c$
+
+# shortcuts
+x dl
+X dh
+D d$
+C c$
+s cl
+S cc
+
+# replace
+r replace with a character
+cl s
+
+# repeating a change
+. last change
+d4f 
+f find first
+df delete to
+f find next
+.
+f find next
+.
+. not work for undo, redo and colon
+
+# visual mode
+v enter visual mode
+V enter visual line mode
+CTRL-v enter visual bock mode
+Vjj
+o switch each ends of selection zone
+
+# moving text
+delete with d, x or other commands, will save that text, and can be put back using the p command
+P put content before the cursor
+
+# swapping two characters
+xp
+
+# copy text
+y copy
+yy
+D Y
+
+# clipboard
+only vim can support clipboard can use *yy and *p to cp/paste content.
+
+# text objects
+dw can be only used to delete word after cursor
+daw can delete whole word
+aw is text object "A word"
+cas inner sentence
+as a sentence
+
+# replace mode
+R enter replace mode
+
+# common commands
+~ change case of character
+I enter insert mode after moving the cursor to the first non blank in the line
+A start insert mode after moving the cursor to the end of the line
