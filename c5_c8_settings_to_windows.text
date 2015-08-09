@@ -1,0 +1,107 @@
+# vimrc
+:edit $MYVIMRC
+:version
+
+$VIMRUNTIME/vimrc_example.vim
+
+# plugins
+global plugin
+filetype plugin
+
+# cmd
+!cmd
+
+# option window
+:options show all options in new window
+
+# edit
+:edit new file
+w or edit! to open forcelly
+:hide edit to hide current and open new
+
+# multiple files
+open many files using vim f1 f2 f3
+:next will not work then current file has not been saved
+:next!
+:wnext
+:args to see how many files opened
+:previous
+:wprevious
+:last
+:first
+:2next
+
+# auto save
+:set autowrite
+:set noautowrite
+
+# file marks
+place a mark in a file mx
+
+# backup
+:set backup
+data.text~
+:set patchmode=.orig
+
+# copy through registers
+f first register
+l line register
+b 
+
+# change file name
+:edit
+:saveas
+:file
+
+# split window
+:split
+:CTRL-w
+:only
+
+# split to new file
+:split two.c
+:new
+
+# window size
+:3split file
+:CTRL-w =/-
+winheight
+winminheight
+winwidth
+winminwidth
+equalalways
+
+# vertical splits
+:vsplit
+:vnew
+:vertical new
+
+# moving windows
+CTRL-w K
+
+# commands for all windows
+:qall quit all
+:wall save all
+:wqall save all then quit
+:qall! quit all any way
+vim -o multiple files to open for different window
+
+# vimdiff
+vimdiff a.f b.f
+vertical diffsplit
+
+# scroll binding
+:set noscrollbind
+
+# jump to changes
+]c
+[c
+:diffupdate
+dp
+do
+
+# tab pages
+:tabedit file
+:gt switch tab
+:tab split
+:tabonly
