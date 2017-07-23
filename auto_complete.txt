@@ -1,0 +1,3 @@
+# Auto complete
+CTRL-N auto complete and press again to go down / CTRL-P to go up
+CTRL-X CTRL-N only search for current file

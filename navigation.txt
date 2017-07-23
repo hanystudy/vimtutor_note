@@ -1,0 +1,8 @@
+# Navigation
+:ls list all recent files and index number
+:b jump to specific file
+
+# Ctags
+CTRL-] go to definition by ctags
+g-CTRL-] list all definitions by ctags
+CTRL-t go back
